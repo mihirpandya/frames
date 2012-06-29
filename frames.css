@@ -1,0 +1,173 @@
+body {
+	font-family: 'Gudea';
+}
+
+canvas.data {
+	position: fixed;
+	left: 0%;
+	width: 20%;
+	height: 33%;
+}
+
+div.data {
+	position: fixed;
+	z-index: -1;
+	left: 0%;
+	width: 33.333%;
+	height: 33.333333%;
+}
+
+div.details {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+div.pane {
+	background-color: #000000;
+	position: fixed;
+	/*-moz-box-shadow: -3px 0px 5px #00FFFF;
+	-webkit-box-shadow: -3px 0px 5px #00FFFF;*/
+	border-left: 3px solid #00BBFF ;
+	color: #F8DE7E;
+	opacity: 0.8;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height: 100%;
+	padding-left: 5px;
+}
+
+div.minPane {
+	background-color: #000000;
+	position: fixed;
+	opacity: 0;
+	top: 0;
+	right: 0;
+	width: 1%;
+	height: 100%;
+	visibility: hidden;
+}
+
+div.minPane:hover {
+	opacity: 0.4;
+}
+
+h1 {
+	padding: 20px;
+	font-family: 'Gudea';
+}
+
+input {
+	padding: 5px;
+	font-size: 1.2em;
+	width:100px;
+}
+
+span.color {
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+button {
+	font-size: 0.9em;
+	color: #F8DE7E;
+	background-color: #000000;
+	border: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: left;
+}
+
+button:hover {
+	text-shadow: #00FFFF 2px -1px 3px;
+}
+
+button#clear {
+	position: fixed;
+	bottom: 5%;
+}
+
+button.submitData {
+	font-size: 0.85em;
+	float: right;
+}
+
+#f1 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#f2 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 33.333%;
+}
+
+#f3 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	left: 66.666%;
+}
+
+#f4 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 33.333333%;
+	left: 0;
+}
+
+#f5 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 33.333333%;
+	left: 33.333%;
+}
+
+#f6 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 33.333333%;
+	left: 66.666%;
+}
+
+#f7 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 66.666666%;
+	left: 0;
+}
+
+#f8 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 66.666666%;
+	left: 33.333%;
+}
+
+#f9 {
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 66.666666%;
+	left: 66.666%;
+}
+
+input.arrangement {
+	width: 10px;
+}
+
+input#jsondata {
+	font-family: 'Gudea';
+	font-size: 0.75em;
+	width: 130px;
+	background-color: #FFFACD;
+}
+
+span.arrangement {
+	font-size: 0.85em;
+}
