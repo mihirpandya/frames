@@ -1,6 +1,6 @@
 var colors = ["#FFC0CB", "#FF91A4", "#E0115F", "#FF0000", "#ED1C24", 
 				"#C40233", "#B31B1B", "#990000", "#800000"];
-/*
+
 var data = ({
 			"David Guetta": {
 							"Album": "Nothing But the Beat",
@@ -39,7 +39,7 @@ var data = ({
 							"Num Tracks": "12"
 							}
 			});
-*/
+
 
 function getArr(obj) {
 	var arr = new Array();

@@ -20,13 +20,14 @@ function jsonpart(json_id) {
 }
 
 function getData() {
+	/*
 	var data = jsonpart('jsondata');
 	
 	if(data == undefined) {
 		alert("Please input valid JSON data");
 		return;
 	}
-
+*/
 	var arrData = getArr(data);
 
 	var n = document.getElementsByName('arrangement');
